@@ -1,0 +1,14 @@
+Dependencies for Project 'ADC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\adc_driver.c)(0x6878CD45)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\adc_driver.o --omf_browse .\objects\adc_driver.crf --depend .\objects\adc_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x559CFE30)
+I (header.h)(0x6878C33F)
+F (.\header.h)(0x6878C33F)()
+F (.\uart.c)(0x6878D790)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.H)(0x559CFE30)
+I (header.h)(0x6878C33F)
+F (.\timer.c)(0x6878CB45)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x559CFE30)
+F (.\main_adc .c)(0x6878D2BE)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o ".\objects\main_adc .o" --omf_browse ".\objects\main_adc .crf" --depend ".\objects\main_adc .d")
+I (C:\Keil_v5\ARM\INC\Philips\LPC214X.h)(0x559CFE30)
+I (header.h)(0x6878C33F)

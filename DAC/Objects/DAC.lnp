@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\objects\startup.o"
+".\objects\uart.o"
+".\objects\timer.o"
+".\objects\dac_driver.o"
+".\objects\main_dac.o"
+--strict --scatter ".\Objects\DAC.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DAC.map" -o .\Objects\DAC.axf
